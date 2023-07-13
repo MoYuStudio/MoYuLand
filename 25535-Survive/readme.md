@@ -1,6 +1,8 @@
 
 # [25535] Survive 生存服
 
+![检测](https://img.shields.io/badge/检测-可运行-green.svg?cacheSeconds=2592000)
+
 ## Plugins 插件
 
 | 必要性 | 类型 | 名称 | 功能 |
