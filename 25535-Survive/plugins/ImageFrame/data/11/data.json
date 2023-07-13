@@ -1,0 +1,23 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 11,
+  "name": "china",
+  "url": "http://download-cdn.123pan.cn/123-516/92c25de8/1813076735-0/92c25de8d9f33055636b808ac1eaa204/c-m2?v\u003d5\u0026t\u003d1684667285\u0026s\u003d168466728529d1964f3154ead7619e114a050c2173\u0026r\u003dVR45T6\u0026filename\u003dR-C.png",
+  "width": 2,
+  "height": 1,
+  "creator": "12000c95-ffa0-33a6-ab24-1e4636c98c71",
+  "hasAccess": {},
+  "creationTime": 1684580967205,
+  "mapdata": [
+    {
+      "mapid": 263,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 264,
+      "image": "1.png",
+      "markers": []
+    }
+  ]
+}

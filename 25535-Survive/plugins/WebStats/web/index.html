@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>MoYuCity摸鱼市 摸鱼榜</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="module">
+    import WebStats from "./WebStats-dist.js"
+
+    const getCookie = (cookie) => document.cookie.match(`${cookie}=([^;]+)`)?.[1]
+
+    const title = getCookie("title")
+    if (title) document.title = title
+
+    // 在页面加载完成后执行
+    window.addEventListener("load", () => {
+      const stats = new WebStats({
+        // 必填项：
+        host: location.protocol + "//" + location.host,   // MC服务器上WebStats的IP和端口
+        tableParent: document.getElementById("webstats-tables"),
+        // 可选项：
+        updateInterval: 10_000, // 设置为0禁用自动更新（以毫秒为单位，默认为10000）
+        showSkins: true,        // 是否显示玩家头像（默认为true）
+        displayCount: 100,      // 每页显示的最大行数（默认为100，设置为-1禁用分页）
+      })
+    })
+  </script>
+</head>
+
+<body>
+  <main>
+    <span>
+      <!-- 切换紧凑视图（可选） -->
+      <input type="checkbox" name="compact" id="compact" class="webstats-option">
+      <label for="compact">紧凑视图</label>
+    </span>
+    <span>
+      <!-- 切换隐藏离线玩家（可选） -->
+      <input type="checkbox" name="hide-offline" id="hide-offline" class="webstats-option">
+      <label for="hide-offline">隐藏离线玩家</label>
+    </span>
+    <span class="webstats-status">
+      <!-- 显示加载状态和任何错误消息（可选） -->
+      <span class="webstats-loading-indicator">加载中...</span>
+      <span class="webstats-error-message"></span>
+    </span>
+
+    <!-- 将由WebStats填充的表格（必需） -->
+    <div id="webstats-tables"></div>
+  </main>
+
+</body>
+
+</html>

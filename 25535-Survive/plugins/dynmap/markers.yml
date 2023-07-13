@@ -1,0 +1,200 @@
+﻿%YAML 1.1
+---
+isSafe: true
+icons: {
+    }
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas:
+            area_1:
+                fillColor: 3249100
+                world: world
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.15
+                x:
+                - -150.0
+                - -1130.0
+                strokeWeight: 3
+                z:
+                - -125.0
+                - -680.0
+                label: 峪谷市
+                ybottom: 64.0
+                strokeColor: 3249100
+                strokeOpacity: 0.15
+            area_5:
+                fillColor: 6029115
+                world: world
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.15
+                x:
+                - -1120.0
+                - -770.0
+                strokeWeight: 3
+                z:
+                - -365.0
+                - -165.0
+                label: 峪谷市 屏山区
+                ybottom: 64.0
+                strokeColor: 6029115
+                strokeOpacity: 0.15
+            area_4:
+                fillColor: 6022655
+                world: world
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.15
+                x:
+                - -770.0
+                - -1120.0
+                strokeWeight: 3
+                z:
+                - -365.0
+                - -670.0
+                label: 峪谷市 硒谷区
+                ybottom: 64.0
+                strokeColor: 6022655
+                strokeOpacity: 0.15
+            area_3:
+                fillColor: 16765580
+                world: world
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.15
+                x:
+                - -570.0
+                - -770.0
+                strokeWeight: 3
+                z:
+                - -265.0
+                - -670.0
+                label: 峪谷市 裕浦区
+                ybottom: 64.0
+                strokeColor: 16765580
+                strokeOpacity: 0.15
+            area_2:
+                fillColor: 3265450
+                world: world
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.15
+                x:
+                - -570.0
+                - -160.0
+                strokeWeight: 3
+                z:
+                - -500.0
+                - -135.0
+                label: 峪谷市 虞东区
+                ybottom: 64.0
+                strokeColor: 3265450
+                strokeOpacity: 0.15
+        label: Markers
+        markers:
+            marker_5:
+                world: world
+                markup: false
+                x: -400.0
+                icon: sign
+                y: 256.0
+                z: -155.0
+                label: 三榊雪山
+            marker_6:
+                world: world
+                markup: false
+                x: -691.0
+                icon: bighouse
+                y: 100.0
+                z: -387.0
+                label: 峪谷一品
+            marker_7:
+                world: world
+                markup: false
+                x: -765.0
+                icon: portal
+                y: 101.0
+                z: -405.0
+                label: 世纪之门
+            marker_8:
+                world: world
+                markup: false
+                x: -737.0
+                icon: bookshelf
+                y: 115.0
+                z: -372.0
+                label: 裕浦现代图书馆
+            marker_9:
+                world: world
+                markup: false
+                x: -723.0
+                icon: bighouse
+                y: 115.0
+                z: -340.0
+                label: 裕浦W酒店
+            marker_12:
+                world: world
+                markup: false
+                x: -551.0
+                icon: minecart
+                y: 107.0
+                z: -281.0
+                label: 虞东火车站
+            marker_10:
+                world: world
+                markup: false
+                x: -723.0
+                icon: basket
+                y: 115.0
+                z: -369.0
+                label: 裕浦世贸大厦
+            marker_11:
+                world: world
+                markup: false
+                x: -730.0
+                icon: minecart
+                y: 115.0
+                z: -320.0
+                label: 裕浦火车站
+            marker_1:
+                world: world
+                markup: false
+                x: -459.0
+                icon: cart
+                y: 138.0
+                z: -311.0
+                label: 虞东交易所
+            marker_2:
+                world: world
+                markup: false
+                x: -471.0
+                icon: bighouse
+                y: 138.0
+                z: -332.0
+                label: 三木青年公寓
+            marker_3:
+                world: world
+                markup: false
+                x: -546.0
+                icon: factory
+                y: 106.0
+                z: -342.0
+                label: 虞东工业区
+            marker_4:
+                world: world
+                markup: false
+                x: -279.0
+                icon: factory
+                y: 106.0
+                z: -232.0
+                label: 峪谷市东南工业区
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

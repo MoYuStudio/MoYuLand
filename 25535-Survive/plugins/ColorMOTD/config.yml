@@ -1,0 +1,5 @@
+﻿ColorMOTD:  
+  # Your required MOTD (Colorcode: '&')
+  motd:
+    line1: '&a&l    ◇&b&l   MoYuCity 摸鱼市 - 生存 &c[1.8-1.20.1] &6&l推荐1.20.1  &a&l◇'
+    line2: '&a&l            ▎▶   &e&l欢迎加入 &b&lMoYuCity 摸鱼市   &a&l◀▎'

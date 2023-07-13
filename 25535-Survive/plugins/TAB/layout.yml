@@ -1,0 +1,31 @@
+enabled: false
+direction: COLUMNS
+default-skin: "mineskin:1753261242"
+enable-remaining-players-text: true
+remaining-players-text: "... 以及其余 %s 个玩家"
+empty-slot-ping-value: 1000
+# 不显示已隐身的玩家
+hide-vanished-players: true
+
+layouts:
+  staff:
+    condition: "permission:tab.staff"
+    fixed-slots:
+    groups:
+      staff:
+        condition: permission:tab.staff
+        slots:
+          - '24-40'
+      players:
+        slots:
+          - '44-80'
+  default:
+    fixed-slots:
+    groups:
+      staff:
+        condition: permission:tab.staff
+        slots:
+          - '24-40'
+      players:
+        slots:
+          - '44-80'

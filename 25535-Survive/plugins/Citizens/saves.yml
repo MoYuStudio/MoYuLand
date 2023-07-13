@@ -1,0 +1,56 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 2
+npc:
+  '2':
+    metadata:
+      removefromplayerlist: false
+    name: '2'
+    uuid: c5cbd260-23f4-4542-84a8-858d015e89e9
+    traits:
+      spawned: true
+      owner:
+        uuid: a5dcf53c-4c64-35a1-b9fc-197f6249d743
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: 55.956703
+        world: world_the_end
+        x: '119.7'
+        y: '61.0'
+        z: '-26.6503'
+        yaw: '55.9567'
+        pitch: '22.5'
+    traitnames: scoreboardtrait,spawned,owner,skintrait,mounttrait,type,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '1':
+    metadata:
+      removefromplayerlist: false
+    name: '1'
+    uuid: aad0f5b5-a431-4681-b9fc-74dae66e48b6
+    traits:
+      spawned: true
+      owner:
+        uuid: a5dcf53c-4c64-35a1-b9fc-197f6249d743
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: -110.250015
+        world: world
+        x: '-517.7'
+        y: '108.0'
+        z: '-380.3'
+        yaw: '-110.25'
+        pitch: '54.45'
+    traitnames: scoreboardtrait,spawned,owner,skintrait,mounttrait,type,location,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

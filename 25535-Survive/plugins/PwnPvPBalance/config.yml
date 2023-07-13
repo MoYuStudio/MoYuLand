@@ -1,0 +1,34 @@
+# Which worlds should this plugin be enabled in? Worlds not in this list will be ignored
+enabled_worlds:
+  - example_world
+  - example_world_nether
+
+# Shielding buff or damage reduction
+# Set true to enable full shield (player cannot be damaged by player with killstreak advantage)
+# Set false (default) for damage reduction based on points over killstreak
+shield: true
+
+# Shield end on timer will reset player shields, if shield is set to true above, after X seconds, set to -1 for infinite
+shield_end_timer: -1
+
+# +/- Kill count to activate player vs. player direct balance. IE: player A, kills player B, X times in a row.
+killstreak: 1
+
+# Max debuff: The maximum debuff allowed, must be a number from (1 - 9) where 1 = %10 damage reduction and 
+# 9 = %90 damage reduction. Whole numbers only, 9 is default.
+max_debuff: 10
+
+# Set scaling option for balance handling. 
+# True scales balance up and down on each kill (handicap method). 
+# False resets killstreaks back to 0 when a player gets a payback kill. 
+scale: true
+
+# Player balance/handicap against other players will end if they logout. If false, the balance will remain until
+# the plugin is reloaded or the server restarted.
+end_on_quit: false
+
+# Enable armor balancing? Grants speed ups to no armor/leather armor and slow downs to heavy armor
+armor_speed: true
+
+# Run a debug log to view additional plugin data for troubleshooting and configuration, turn off in production!
+debug_log: false  

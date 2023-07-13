@@ -1,0 +1,4 @@
+# This file is for storing sign location, npcs, and other things in the plugin that might display data
+
+signs:
+- world,9.0,88.0,177.0,0.0,0.0,;statistic_hours_played;1;ALLTIME

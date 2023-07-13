@@ -1,0 +1,133 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 5,
+  "name": "gura",
+  "url": "http://download-cdn.123pan.cn/123-969/0d95547a/1813076735-0/0d95547a3d24a9668ad9e5970162b3c9/c-m2?v\u003d5\u0026t\u003d1684549414\u0026s\u003d1684549414afefe64f7586d572f8ca3f10144a53a4\u0026r\u003dVBAULC\u0026filename\u003dabe7d0beb49f47e7951793f71b146f90.jpg",
+  "width": 4,
+  "height": 6,
+  "creator": "12000c95-ffa0-33a6-ab24-1e4636c98c71",
+  "hasAccess": {},
+  "creationTime": 1684463483063,
+  "mapdata": [
+    {
+      "mapid": 228,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 229,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 230,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 231,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 232,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 233,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 234,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 235,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 236,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 237,
+      "image": "9.png",
+      "markers": []
+    },
+    {
+      "mapid": 238,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 239,
+      "image": "11.png",
+      "markers": []
+    },
+    {
+      "mapid": 240,
+      "image": "12.png",
+      "markers": []
+    },
+    {
+      "mapid": 241,
+      "image": "13.png",
+      "markers": []
+    },
+    {
+      "mapid": 242,
+      "image": "14.png",
+      "markers": []
+    },
+    {
+      "mapid": 243,
+      "image": "15.png",
+      "markers": []
+    },
+    {
+      "mapid": 244,
+      "image": "16.png",
+      "markers": []
+    },
+    {
+      "mapid": 245,
+      "image": "17.png",
+      "markers": []
+    },
+    {
+      "mapid": 246,
+      "image": "18.png",
+      "markers": []
+    },
+    {
+      "mapid": 247,
+      "image": "19.png",
+      "markers": []
+    },
+    {
+      "mapid": 248,
+      "image": "20.png",
+      "markers": []
+    },
+    {
+      "mapid": 249,
+      "image": "21.png",
+      "markers": []
+    },
+    {
+      "mapid": 250,
+      "image": "22.png",
+      "markers": []
+    },
+    {
+      "mapid": 251,
+      "image": "23.png",
+      "markers": []
+    }
+  ]
+}

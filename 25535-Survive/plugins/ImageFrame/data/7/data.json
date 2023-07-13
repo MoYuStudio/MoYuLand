@@ -1,0 +1,18 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 7,
+  "name": "gura_gif",
+  "url": "http://download-cdn.123pan.cn/123-360/6b2d0a54/1812185297-0/6b2d0a54a6ec61c3eb517392628fed68?v\u003d5\u0026t\u003d1684550715\u0026s\u003d1684550715a55017a236774b45c9de551e60447a8b\u0026r\u003dGL2H08\u0026filename\u003dQQ%E5%9B%BE%E7%89%8720230519104429.gif",
+  "width": 1,
+  "height": 1,
+  "creator": "12000c95-ffa0-33a6-ab24-1e4636c98c71",
+  "hasAccess": {},
+  "creationTime": 1684464496022,
+  "mapdata": [
+    {
+      "mapid": 253,
+      "image": "0.png",
+      "markers": []
+    }
+  ]
+}

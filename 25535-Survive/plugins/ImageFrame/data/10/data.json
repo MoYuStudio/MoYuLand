@@ -1,0 +1,28 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 10,
+  "name": "exchange",
+  "url": "http://download-cdn.123pan.cn/123-228/1f9902da/1813076735-0/1f9902dafef67493404c3bcb62ec2ce4/c-m2?v\u003d5\u0026t\u003d1684574829\u0026s\u003d168457482965216004966d523e0fb9d94d7a0239aa\u0026r\u003dG0O802\u0026filename\u003d%E5%B3%AA.png",
+  "width": 1,
+  "height": 3,
+  "creator": "12000c95-ffa0-33a6-ab24-1e4636c98c71",
+  "hasAccess": {},
+  "creationTime": 1684488450960,
+  "mapdata": [
+    {
+      "mapid": 260,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 261,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 262,
+      "image": "2.png",
+      "markers": []
+    }
+  ]
+}

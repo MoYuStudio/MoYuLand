@@ -1,0 +1,118 @@
+### You can watch this resource for updates at https://www.spigotmc.org/resources/craftmatic.94243/
+
+# normally the crafting block will ignore the "powered" state of its dropper and attempt to produce an item
+# every "crafting tick". Set this to true if you would like the crafting block to only activate when it is unpowered
+disableWhenPowered: false
+
+# set tickRate to the number of game ticks between attempts to craft an item. It is 20 (so, 1 second) by default.
+tickRate: 20
+
+# set chunkLoadSearchDelay to the number of ticks to wait after a chunk is loaded before searching it for
+# crafting blocks. This works around a problem where some Spigot versions reports a chunk as loaded before
+# it actually completely reloads all of the entities (including item frames) in the chunk. The default is
+# 100 ticks or 5 seconds.
+chunkLoadSearchDelay: 100
+
+# some crafting recipes are handled as exceptions to the normal crafting system.
+# (See https://minecraft.fandom.com/wiki/Recipe#crafting_special_.2A)
+# NOTE: Starting with version 2.0.1, this only applies during an upgrade from previous versions of the
+# plugin. In version 2.0.1 and later, emulation is no longer necessary for complex recipes.
+emulateSpecialRecipes: true
+
+# when showActivity is true, every time a crafting block crafts a new item, it will rotate the
+# activation item in the item frame attached to the crafting block as an external, visual
+# indication that crafting has been successful.
+showActivity: true
+
+# type of item frames to use for creating Crafting Blocks
+# Should be one or more of ITEM_FRAME or GLOW_ITEM_FRAME
+itemFrames:
+  - GLOW_ITEM_FRAME
+  - ITEM_FRAME
+
+# when hideFrameWhenValid is true and an activation item is placed in an item frame on a dropper to create a
+# crafting block, the plugin will make the item frame invisible as a visual indication that the block has
+# been successfully created. If the crafting table is removed, the item frame will become visible again.
+hideFrameWhenValid: true
+
+# when a recipe is successfully configured in the Crafting Block, should a description of the  crafted item
+# be visible above the item frame?
+isCraftedItemVisible: true
+
+# can optionally emit redstone particles
+emitParticles: false
+
+# the plugin can generate an InventoryMoveItemEvent when items are crafted showing items moving from the
+# input container to the output container. This helps with integration with some other plugins, but can also
+# be a source of lag due to inefficient processing of such events in other plugins. It is enabled by default.
+# Consider disabling if your timings show other plugins spending a lot of time processing these events.
+generateInventoryMoveItemEvent: true
+
+# the plugin can generate a CraftItemEvent when the player changes the recipe in a crafting block.
+# If another plugin cancels this event, the craftmatic plugin will reject the recipe, thus preventing
+# the player from using craftmatic to craft items that they would not otherwise be allowed to craft.
+generateCraftItemEvent: false
+
+# by default, you should use a block protection plugin such as LWC or GriefPrevention to protect the recipe
+# from being tampered with or stolen by other players. Even so, if you enable protectRecipe, the plugin will
+# remember which player created the craftmatic block (specifically the one who placed the crafting table in the
+# item frame) and only that player will be allowed to change the item frame or open the craftmatic block's
+# inventory.
+protectRecipe: false
+
+# by default, the crafting block is activated by placing a crafting table in the item frame on
+# the dropper. However, any item placeable in an item frame can be used. So, you can
+# make it more challenging to create a crafting block by choosing a rare item such as dragon head
+# or dragon egg. In the simplest use cases, set activationItem to the name of the chosen item's material.
+# See https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html for possible material names.
+activationItem: CRAFTING_TABLE
+
+# if you wish to strongly control who can create crafting blocks then you will want to choose an activation item
+# that cannot be gathered from the world through normal means. In this case, you can set the activation item
+# to a serialized ItemStack specification. Below is an example that forces the use of a crafting table with a specific
+# descriptive "lore" and plugin-specific NBT data.
+# Use the "/craftmatic item give" command to get this block in-game. The use of the give command itself is controlled
+# with the craftmatic.command.item-give permission.
+#
+# WARNING: Spigot may change how items are formatted from one release to the next, so care must be taken when upgrading
+# server versions. It is recommended to keep an activation item stored someplace safe in-game and then after upgrading
+# use the "/craftmatic item show" command with the activation item in-hand to get the latest serialized form of the item
+# and use that to update this configuration file.
+
+#activationItem:
+#  ==: org.bukkit.inventory.ItemStack
+#  v: 3105
+#  type: CRAFTING_TABLE
+#  meta:
+#    ==: ItemMeta
+#    meta-type: UNSPECIFIC
+#    lore:
+#    - '{"extra":[{"text":"craftmatic activator"}],"text":""}'
+#    PublicBukkitValues:
+#      craftmatic:valid: 1i
+
+# If you wish to make the activation item craftable (presumably because you have configured it to be a distinct
+# item by defining a serialized activationItem above, you can add a custom recipe to your server using existing
+# datapack mechanics. If you list the name of the recipe here, craftmatic will override the recipe so that instead
+# of crafting the item in the recipe, the recipe's ingredients craft the activation item.
+#activationItemRecipes:
+  #- 'born2code:craftmatic_item'
+
+
+# type of containers that the crafting block will use. By default, the plugin will use any container.
+# You can find the container names at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# NOTE: To fully include shulker boxes, you will need to list all 17 variations.
+#inputContainers:
+  #- 'BARREL'
+
+#outputContainers:
+  #- 'BARREL'
+
+# level of progress messages written to the console. One of: "off", "severe", "warning", "info", "config", "fine",
+# "finer", "finest". "debug" (an alias for "fine") "trace" (an alias for "finer"), and "all" (an alias for "finest")
+# are also accepted.
+logLevel: CONFIG
+
+# bStats provides anonymous feedback so that the plugin author is aware of which server types and versions are
+# actually being used and need to be supported. See https://bstats.org/getting-started
+bStats: true

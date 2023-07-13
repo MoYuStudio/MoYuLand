@@ -1,0 +1,10 @@
+error_message: '&cYou are not allowed to do this!'
+permission: pluginblocker.bypass
+
+blocked_commands:
+  - "bukkit:pl"
+  - "pl"
+  - "bukkit:plugins"
+  - "plugins"
+  - "help"
+  - "bukkit:help"
