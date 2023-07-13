@@ -11,7 +11,7 @@
 | N/A | 优化 | LaggRemover-2.0.6 | 用于减少服务器卡顿的插件 |
 | N/A | 功能 | ChestCleaner-2-4-4 | 清理箱子中物品的功能 |
 | N/A | 功能 | Citizens-2.0.32-b3168 | 添加NPC（非玩家角色）到服务器中 |
-| ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000 | 功能 | ColorMOTD | 自定义服务器的MOTD（欢迎信息）颜色 |
+| ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 功能 | ColorMOTD | 自定义服务器的MOTD（欢迎信息）颜色 |
 | N/A | 功能 | Craftmatic | 提供自定义合成配方的功能 |
 | N/A | 功能 | DualWield-3.0 | 允许玩家在副手持有物品 |
 | 高 | 功能 | Dynmap-3.6-beta-1-spigot | 在网页上展示服务器地图的功能 |
