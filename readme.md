@@ -2,10 +2,10 @@
 ##### MoYuStudio - MoYuLand Minecraft Server
 # 摸鱼大陆 Minecraft服务器
 
-一个在MoYuStudio摸鱼社领导下将服务端开源的Minecraft服务器
+一个开源Minecraft服务端的服务器项目
 
-![Game](https://img.shields.io/badge/Game-Minecraft-green.svg?cacheSeconds=2592000)
-![Version](https://img.shields.io/badge/Version-1.20.1-green.svg?cacheSeconds=2592000)
+![游戏](https://img.shields.io/badge/游戏-Minecraft-green.svg?cacheSeconds=2592000)
+![版本](https://img.shields.io/badge/版本-1.20.1-green.svg?cacheSeconds=2592000)
 
 ## [25535] Survive 生存服
 
