@@ -13,5 +13,6 @@
 ![运行情况](https://img.shields.io/badge/停止-red.svg?cacheSeconds=2592000) Mod 模组：moyu-studio.com:25545  
 
 ## [25535] Survive 生存服
+![版本](https://img.shields.io/badge/版本-1.20.1-green.svg?cacheSeconds=2592000)
+![运行检测](https://img.shields.io/badge/运行检测-可运行-green.svg?cacheSeconds=2592000)
 
-### Plugins 插件
