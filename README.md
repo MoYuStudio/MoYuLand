@@ -1,7 +1,8 @@
 
 # MoYuLand
 
-![Version](https://img.shields.io/badge/Version-1.8_-_1.20.1-green.svg?cacheSeconds=2592000)
+![Game](https://img.shields.io/badge/Game-Minecraft-green.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/Version-1.20.1-green.svg?cacheSeconds=2592000)
 
 ## 25535-Survive
 
