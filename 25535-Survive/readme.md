@@ -35,7 +35,7 @@
 | ![必要性](https://img.shields.io/badge/中-yellow.svg?cacheSeconds=2592000) | 反作弊 | AntiXRay-1.9.0 | 防止玩家使用X射线透视作弊的插件 |
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 回溯 | CoreProtect-21.3 | 提供方块和玩家操作的回溯功能 |
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 备份 | ServerBackup | 提供服务器备份功能 |
-| ![必要性](https://img.shields.io/badge/高-red.svg?cacheSeconds=2592000) | 椅子 | RifleChairs | 添加使用步枪的椅子功能 |
+| ![必要性](https://img.shields.io/badge/高-red.svg?cacheSeconds=2592000) | 椅子 | RifleChairs | 添加使用椅子功能 |
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 管理 | PlugManX | 提供插件管理功能 |
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 跨版本 | ViaBackwards-4.7.0 | 在不同版本之间进行兼容转换的功能 |
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 跨版本 | ViaRewind-2.0.3 | 在不同版本之间进行兼容转换的功能 |
