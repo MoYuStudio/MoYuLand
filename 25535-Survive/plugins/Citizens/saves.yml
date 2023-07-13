@@ -16,14 +16,14 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 55.956703
+        bodyYaw: -81.45032
         world: world_the_end
-        x: '119.7'
+        x: '110.3'
         y: '61.0'
-        z: '-26.6503'
-        yaw: '55.9567'
-        pitch: '22.5'
-    traitnames: scoreboardtrait,spawned,owner,skintrait,mounttrait,type,location,inventory
+        z: '-29.4011'
+        yaw: '-81.4503'
+        pitch: '8.7003'
+    traitnames: scoreboardtrait,mounttrait,spawned,inventory,skintrait,location,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -49,7 +49,7 @@ npc:
         z: '-380.3'
         yaw: '-110.25'
         pitch: '54.45'
-    traitnames: scoreboardtrait,spawned,owner,skintrait,mounttrait,type,location,inventory
+    traitnames: scoreboardtrait,mounttrait,spawned,inventory,skintrait,location,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
