@@ -23,7 +23,7 @@ npc:
         z: '-29.4011'
         yaw: '-81.4503'
         pitch: '8.7003'
-    traitnames: scoreboardtrait,mounttrait,spawned,inventory,skintrait,location,owner,type
+    traitnames: type,scoreboardtrait,location,mounttrait,inventory,spawned,owner,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -49,7 +49,7 @@ npc:
         z: '-380.3'
         yaw: '-110.25'
         pitch: '54.45'
-    traitnames: scoreboardtrait,mounttrait,spawned,inventory,skintrait,location,owner,type
+    traitnames: type,scoreboardtrait,location,mounttrait,spawned,inventory,owner,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
