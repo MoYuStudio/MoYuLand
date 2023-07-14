@@ -40,3 +40,4 @@
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 跨版本 | ViaBackwards-4.7.0 | 在不同版本之间进行兼容转换的功能 |
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 跨版本 | ViaRewind-2.0.3 | 在不同版本之间进行兼容转换的功能 |
 | ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 跨版本 | ViaVersion-4.7.0 | 在不同版本之间进行兼容转换的功能 |
+| ![必要性](https://img.shields.io/badge/必须-black.svg?cacheSeconds=2592000) | 权限管理 | LuckPerms-Bukkit-5.4.40 | 权限管理 |
