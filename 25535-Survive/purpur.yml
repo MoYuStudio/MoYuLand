@@ -679,6 +679,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       ocelot:
+        spawn-below-sea-level: false
         ridable: false
         ridable-in-water: true
         controllable: true

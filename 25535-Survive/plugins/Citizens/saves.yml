@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 2
+last-created-npc-id: 8
 npc:
   '2':
     metadata:
@@ -16,14 +16,24 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -81.45032
+        bodyYaw: 83.69862
         world: world_the_end
-        x: '110.3'
-        y: '61.0'
-        z: '-29.4011'
-        yaw: '-81.4503'
-        pitch: '8.7003'
-    traitnames: type,scoreboardtrait,location,mounttrait,inventory,spawned,owner,skintrait
+        x: '108.7'
+        y: '58.0'
+        z: '-28.7'
+        yaw: '83.6986'
+        pitch: '6.5999'
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': Hi, I'm <npc>!
+    traitnames: type,scoreboardtrait,skintrait,spawned,location,owner,inventory,mounttrait,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -49,7 +59,37 @@ npc:
         z: '-380.3'
         yaw: '-110.25'
         pitch: '54.45'
-    traitnames: type,scoreboardtrait,location,mounttrait,spawned,inventory,owner,skintrait
+    traitnames: type,scoreboardtrait,spawned,skintrait,location,owner,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '6':
+    metadata:
+      cached-skin-uuid: b1e31c6f-6fab-45ce-b352-942259976bf3
+      cached-skin-uuid-name: sha
+      removefromplayerlist: false
+    name: sha
+    uuid: 331ea2a8-5bfb-43c5-b92a-09defa1a96b4
+    traits:
+      location:
+        bodyYaw: -100.04675
+        world: world
+        x: '-1390.7'
+        y: '-1.0'
+        z: '-212.3'
+        yaw: '-100.0468'
+        pitch: '26.1001'
+      owner:
+        uuid: a5dcf53c-4c64-35a1-b9fc-197f6249d743
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: xyBdWHTHh6Ce+A4AJaMCkZB66c1ACNYTmPxpgGBJ7FCek2O/bOznaIJLGZMSCuYe7QUFGJC3DSUbNyaZluznXytTTgrqGA240S5Qy6D3LJHSabS36u8w804sLWXP1Mm/Eop+wnaXNm2CnVxQrUk/nHchiprbK8TWAVu2Az+A9xpsjchDydAz8kPdW5eLD0hPEK5TL+p5l1s8qlOmWHZeRniG2Ft26xt1Zyh9PzaD7CQ3jmUlEtRhw/m+CPutS9i/PzkgD1r6elTl3GpYYe+q7IkYrreE9jo+2eC32VIOpq4lqlUXvMD7R6bNndR7qAfz6aHGhPKaAUy5+3fLKQobybUK9LC55ws0g4Nm6cNyEMSc59qe2wtT+lRuAXxJsq0JJ1qWfHAG7a5GfGYpdU9HfDJVo+52rAG7jsnAMysydkFCxrZRuPGWnEvNIMDIgX8iOg4WJHB0HkPFayMtxRqhsnurhVLdmE+3pKz8ZptSel6SrFlp3n7Q7XdKZAUn1gfzeUY3xkNBOZuIUak/HXC0nzYdvn2Zp4riEnYChQ95a38Pf3bxc+2b8mTp09SJZZhDzp4T1IFm8mQ7Ljj1ueFjQRtbsyxcW/55hvqAuiQ+VOsxvH/NGgLNOqEmiHdcP5MN15nM6eU5ndmo1HBs8uI5J78aAg6bqbfebyQT+zrbBMs=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4OTM4OTQxOTc3OCwKICAicHJvZmlsZUlkIiA6ICJiMWUzMWM2ZjZmYWI0NWNlYjM1Mjk0MjI1OTk3NmJmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFmNDc3ZWIxYTdiZWVlNjMxYzJjYTY0ZDA2ZjhmNjhmYTkzYTMzODZkMDQ0NTJhYjI3ZjQzYWNkZjFiNjBjYiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+    traitnames: type,scoreboardtrait,spawned,skintrait,location,owner,inventory,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
